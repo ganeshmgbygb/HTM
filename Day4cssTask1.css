@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.image-text-container {
+    display: inline-block;
+    border: 4px solid black;
+    background-color: chocolate;
+    text-align: justify;
+    margin-top: 80px;
+  }
+  
+  .image-text-container img {
+    float: left;
+    vertical-align: middle; 
+    margin: 0 10px 0 5px; 
+    width: 200px; 
+    height: 400px;
+    margin-bottom: 600px;
+    padding-bottom: 20px;
+    border-radius: 50%;
+  }
+  .image-text-container p{
+    display: inline;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    text-align: justify;
+    
+
+  }
+  h1{
+    text-align: center;
+    
+   
+  }
+.mybody{
+    margin-top: 5%;
+    border: 2px 4px solid green;
+    
+}

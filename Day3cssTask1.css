@@ -1,0 +1,33 @@
+*{
+
+}
+
+.myclass{
+    margin: auto;
+    margin-top: 80px;
+    width: 500px;
+    border: 5px dotted;
+    padding: 10px ;
+  
+  background-color: #F9CC9D;
+} 
+.main{
+    
+    border: 5px solid;
+    padding: 10px ;
+  margin: 25px 50px 75px ;
+  background-color: #FDDD9B;
+} 
+.mymain{
+    
+    border: 5px dotted;
+    padding: 10px ;
+  margin: 25px 50px 75px ;
+  background-color:#C2CF8A;
+}
+.mydiv{
+    border: 1px solid;
+    text-align: center;
+    background-color: lightblue;
+    margin-bottom: 40px;
+}

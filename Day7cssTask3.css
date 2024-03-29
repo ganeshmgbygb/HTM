@@ -1,0 +1,46 @@
+*{
+padding: 0;
+margin: 0;
+}
+.na {
+    display: flex;
+    background-color: rgba(218, 79, 15, 0.438);
+    opacity: 80%;
+  
+}
+.na img{
+    height: 70px;
+    width: 80px;
+    mix-blend-mode: darken;
+
+   
+}
+.mynav{
+    display: flex;
+    flex-direction: column;
+   
+}
+.na li{
+    list-style: none;
+    margin: 20px;
+    margin-top: 20px;
+    
+}
+.na a{
+    text-decoration: none;
+    color: black;
+}
+.na input{
+ height: 30px;
+ width: 190px;
+ text-align: justify;
+ border-radius: 20px;
+ margin-top: 13px;
+ margin-left: 20px;
+}
+#imgg{
+    height: 40px;
+    width: 30px;
+    border-radius:  50px ;
+    margin-top: 10px;
+}

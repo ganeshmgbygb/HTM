@@ -1,0 +1,33 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+hr{
+    height: 6px;
+    width: 200px;
+    background-color: red;
+    margin-top: 120px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.continer{
+    margin: 2px;
+    padding: 2px;
+    border: 5px solid;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    margin-top: 6px;
+    margin-left: 100px;
+    box-shadow: 20px 10px 20px grey;
+    background-color: blue;
+    animation-name: ball;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes ball{
+    from{transform: translateY(200%) }
+}

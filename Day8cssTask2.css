@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.continer{
+    padding:20PX;
+    background-color: brown;
+    display: flex;
+    margin: 10px solid white;
+}
+@media  screen and (min-width: 400px) {
+    .box-1 {background: red;
+    color: aliceblue;}
+  }
+@media  screen and (min-width: 480px) {
+.box-2{background-color: rgb(239, 119, 7); 
+    color: aliceblue;}
+}
+@media  screen and (min-width: 600px) {
+    .continer{ background-color: rgb(4, 246, 41); 
+        color: aliceblue; }
+    }
+    @media  screen and (min-width: 760px) {
+        .continer{ background-color: rgb(77, 7, 238); 
+            color: aliceblue;}
+        }
+        @media  screen and (min-width: 800px) {
+            .continer{background-color: rgb(249, 13, 21); 
+                color: aliceblue;}
+            }
+            @media  screen and (min-width: 1024px) {
+                .continer{ background-color: rgb(181, 2, 246); 
+                    color: aliceblue;}
+                }
+                @media  screen and (min-width: 1280px) {
+                    .continer{background-color: rgb(4, 31, 240); 
+                        color: aliceblue;}
+                    }
+                    @media  screen and (min-width: 1440px) {
+                        .continer{background-color: rgb(0, 2, 2); 
+                            color: aliceblue;}
+                        }

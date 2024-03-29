@@ -1,0 +1,68 @@
+*{
+  
+  margin: 10px 20px solid;
+  padding:10px 20px solid;
+  border:10px 20px solid ;
+  
+}
+
+.myimg img{ 
+    height: 10vw;
+    width: 12vw;
+    border-radius: 100%;
+   margin-left: 20px;
+    
+}
+.myimg h1{
+    display: inline;
+    float: right;
+    margin-top: 5%;
+    margin-right:500px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.myhead{
+   margin-left: 42%;
+   padding-left: 2px;
+  }
+   a:link {
+    color: rgb(16, 15, 15);
+  }
+  
+  
+  a:visited {
+    color: green;
+  }
+  
+ 
+  a:hover {
+    color: hotpink;
+  }
+  
+  
+  a:active {
+    color: blue;
+  }
+
+
+.mybody{
+  text-align: justify;
+  font-variant: small-caps;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.myskills{
+ 
+  font-variant: small-caps;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 50%;
+}
+.myskills table{
+  text-align: center;
+}
+.myedu{
+  font-variant: small-caps;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 25%;
+}
+body{
+  border: 20%;
+}

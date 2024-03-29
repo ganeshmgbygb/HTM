@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../Ai.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+  
+    
+}
+.mynav{
+    /* margin: 10px; */
+   
+    background-color: #e0e0e0;
+  opacity: 60%;
+  padding: 10px;
+    
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    /* width: 50%; */
+    padding: 10px 20px;
+    margin: 10px;
+}
+  
+  .nav-links a {
+    text-decoration: none; 
+    color: black; 
+    font-weight: bold;
+     margin:30px ;
+  }
+  .nav-links li {
+    display: inline-block; 
+    margin-left: 20px; 
+  }
+   a:hover {
+    margin: 2px;
+    border-radius: 70px;
+    background-color:#fa0404; 
+  }
+  #text{
+    border-radius: 20px;
+    width: 200px;
+  }
+  .nav-links input{
+    height: 25px;
+  }
+  .nav-links img{
+    width: 20px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  .sidenav {
+    height: 100vh; /* Set sidebar height to 100% viewport height */
+    width: 200px; /* Set sidebar width */
+    /* position: fixed;  */
+    top: 0; /* Start sidebar from the top */
+    left: 0; /* Position sidebar at left-most edge (change to right: 0; for right side) */
+    background-color: #f1f1f1; /* Set background color */
+    display: flex; /* Allow vertical alignment of content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; 
+    opacity: 60%;
+  }
+  .nav-link {
+    list-style: none; /* Remove default list style */
+    margin: 10px; /* Remove default margin */
+    padding: 30px 0; /* Add top and bottom padding */
+  }
+  
+  .nav-link li {
+    margin-bottom: 10px; /* Add space between links */
+  }
+  
+  .nav-link a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set text color */
+    display: block; /* Allow full width for links */
+    padding: 10px; /* Add padding to links */
+  }
+  
+  .nav-link a:hover {
+    background-color: #ddd; 
+  }
+  header{
+    display: flex;
+  }
+  .mysection{
+    /* display: flex; */
+    text-align: center;
+  }
+  .mysection h1{
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    word-spacing: 3px;
+  }
+  .mysection img{
+   width: 430px;
+  }
+  .mysection p{
+    font-size: larger;
+    font-weight: 900;
+    color: #e3edf9;
+    text-align: center;
+    opacity: 90%;
+  }

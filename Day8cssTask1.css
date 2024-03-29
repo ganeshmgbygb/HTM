@@ -1,0 +1,93 @@
+*{
+margin: 0;
+padding: 0;
+background-color: #222222;
+}
+header{
+    height: fit-content;
+    display: flex;
+    width: 100%;
+}
+.mynav{
+    background-color: black;
+    height: 50px;
+    grid-area: mynav;
+}
+.mynav input{
+    margin-left: 620px;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+    text-align: center;
+    height: 46px;
+    width: 480px;
+    background-color:#222222 ;
+    color: #EEEEEE;
+}
+.mynav img{
+    height: 50px;
+  mix-blend-mode: luminosity;
+ 
+}
+
+.myside{
+    display: flex;
+    background-color:rgb(15,15,15);
+    margin-left: 10px;
+    grid-area: myside;
+    flex-direction: column;
+    width:200px;
+    border-radius: 20px;
+    
+    height: 120vh;
+    color: #EEEEEE;
+    overflow-x: hidden;
+    overflow-y:scroll ;
+}
+.myside li{
+list-style: none;
+margin: 20px;
+
+}
+.myside a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 7px;
+}
+.myside :hover{
+    background-color: gray;
+    border-radius: 20px;
+    height: 40px;
+    transform: scale(1.4);
+}
+.myside hr{
+    width: 200px;
+}
+button{
+   width: 60px;
+ background-color:#222222 ;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   color: #EEEEEE;
+}
+.mymain{
+   display: grid;
+   grid-template-columns: auto auto auto;
+    color: #EEEEEE;
+    grid-area: mymain;
+}
+.video-container{
+    margin: 10px;
+}
+.video-container p{
+    font-weight: 500;
+    font-size: x-large;
+    word-spacing: 8px;
+}
+#myhed{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: "mynav mynav mynav" "myside mymain mymain";
+}
+.mydiv{
+    display: inline-block;
+}

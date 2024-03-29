@@ -1,0 +1,29 @@
+*{
+padding: 0;
+margin: 0;
+font-size: xx-large;
+}
+.continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.clock img{
+    height: 220px;
+    width: 440px;
+    margin: 20px;
+    border-radius: 30px;
+
+}
+.zomoto img{
+    height: 220px;
+    width: 440px;
+    margin: 20px;
+    border-radius: 30px;
+}
+.clock p{
+ font-weight: 500;
+ font-style: normal;
+ 
+}

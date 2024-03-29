@@ -1,0 +1,47 @@
+#main{
+    border-style: double dotted solid;
+    color: rgba(18, 17, 17, 0.986);
+    background-color: chocolate;
+    
+}
+#main p{
+    color: rgb(237, 229, 229);
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+ #mymain{
+    border-style: double dashed dotted solid;
+    color: brown;
+    
+    background-color: goldenrod;
+}
+#mymain p{
+    color: rgb(237, 229, 229);
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+#myclass{
+    border-style: double  solid;
+    color: goldenrod;
+   background-color: gray;
+    
+}
+#myclass p{
+    color: rgb(82, 78, 51);
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+div{
+    border-style: solid  groove;
+    color: rgb(15, 15, 15);
+   background-color: khaki;
+}
+#class p{
+    color: rgb(241, 7, 7);
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}

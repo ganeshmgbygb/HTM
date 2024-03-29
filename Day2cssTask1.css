@@ -1,0 +1,32 @@
+
+ 
+#mypic{
+    background-image: url(../charli4.jpg);
+    background-repeat: no-repeat;
+    background-position: 84%;
+    background-size: contain;
+    text-align: right;
+    background-color: rgb(15, 14, 1);
+}
+.myimg{
+background-color: rgb(6, 31, 53);
+text-align: center;
+}
+div img{
+    border-radius: 80%;
+}
+#mypic >img{
+    border-radius: 30%;
+}
+
+#abc  {
+    background-image: url(../charli4.jpg);
+    background-repeat: no-repeat;
+    background-position: 14%;
+    background-color: black;
+    text-align: left;
+}
+#abc img{
+    
+    border-radius: 90%;
+}

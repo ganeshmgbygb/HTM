@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  header{
+    background-color: black;
+    color: #ddd;
+  margin-left: 220px;
+  z-index: 1;
+  }
+  
+  #main-content {
+    padding: 20px;
+     margin-left: 200px;
+     display: inline-flex;
+  }
+  .ipl{
+    padding: 20px;
+    margin-left: 200px;
+  }
+  
+  .sidenav {
+    height: 100vh; 
+    width: 200px; 
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    background-color: #f1f1f1; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+  }
+  
+  .nav-links {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 20px 0; 
+  }
+  
+  .nav-links li {
+    
+    margin-bottom: 10px; /* Add space between links */
+  }
+  
+  .nav-links a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set text color */
+    display: inline; /* Allow full width for links */
+    padding: 10px; /* Add padding to links */
+  }
+  
+  .nav-links a:hover {
+    background-color: #131313;
+     color: #ddd;
+     border-radius: 9px;
+  }
+
+  footer{
+    margin-left: 200px;
+    background-color: black;
+  }
+  .myfooter {
+    
+    color: rgb(214, 200, 200);
+    padding: 10px;
+    margin-left: 200px;
+    text-align: center;
+   
+  }
+  li{
+    padding-left: 10px;
+    margin-left: 20px;
+  }
+  .myfoot p{
+    margin-left: 600px;
+    color: #ddd;
+  }
